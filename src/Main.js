@@ -5,16 +5,6 @@ import { Nav, Navbar, NavItem } from "react-bootstrap";
 import "./index.css";
 import Routes from "./Routes";
 
-
-import Home from "./pages/Home";
-import ToolgateMaps from "./pages/ToolgateMaps";
-import Kontakt from "./pages/Kontakt";
-import OmToolgateMaps from "./pages/OmToolgateMaps";
-import Fragor from "./pages/Fragor";
-import SkapaKonto from "./pages/SkapaKonto";
-import MinSida from "./pages/MinSida";
-import LoggaIn from "./pages/LoggaIn";
-
 class Main extends Component {
     render() {
       return (
@@ -26,12 +16,15 @@ class Main extends Component {
           <LinkContainer exact to="/">
               <NavItem>Hem</NavItem>
             </LinkContainer>
-          <LinkContainer to="/signup">
+          <LinkContainer to="/skapakonto">
+              <NavItem>Skapa konto</NavItem>
+            </LinkContainer>
+            <LinkContainer to="/skapakonto">
               <NavItem>Skapa konto</NavItem>
             </LinkContainer>
             </Nav>
             <Nav pullRight>
-            <LinkContainer to="/LoggaIn">
+            <LinkContainer to="/loggain">
               <NavItem>Logga In</NavItem>
             </LinkContainer>
           </Nav>
