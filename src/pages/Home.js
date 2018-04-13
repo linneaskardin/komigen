@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import "./Home.css";
+import "./pages-css/Home.css";
  
 export default class Home extends Component {
   render() {
     return (
       <div className="Home">
         <div className="lander">
-          <h1>Scratch</h1>
-          <p>A simple note taking app</p>
+          <h1>Toolgate Maps</h1>
+          <p>Something eye catching</p>
         </div>
       </div>
     );

@@ -6,7 +6,7 @@ import {
   ControlLabel
 } from "react-bootstrap";
 import LoaderButton from "../components/LoaderButton";
-import "./SkapaKonto.css";
+import "./pages-css/SkapaKonto.css";
 
 export default class Signup extends Component {
   constructor(props) {

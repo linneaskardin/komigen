@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
-import "./Login.css";
+import { LinkContainer } from "react-router-bootstrap";
+import { Nav, Navbar, NavItem } from "react-bootstrap";
+import "./pages-css/Login.css";
+import Routes from "../Routes";
+
 
 export default class LoggaIn extends Component {
   constructor(props) {
@@ -55,6 +59,9 @@ export default class LoggaIn extends Component {
           >
             Logga In
           </Button>
+          <LinkContainer to="/skapakonto">
+              <NavItem class="konto">Skapa konto</NavItem>
+            </LinkContainer>
         </form>
       </div>
     );
