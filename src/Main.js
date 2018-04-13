@@ -16,11 +16,20 @@ class Main extends Component {
           <LinkContainer exact to="/">
               <NavItem>Hem</NavItem>
             </LinkContainer>
+            <LinkContainer to="/toolgatemaps">
+              <NavItem>Toolgate Maps</NavItem>
+            </LinkContainer>
+            <LinkContainer to="/omtoolgatemaps">
+              <NavItem>Om Toolgate Maps</NavItem>
+            </LinkContainer>
+            <LinkContainer to="/kontakt">
+              <NavItem>Kontakt</NavItem>
+            </LinkContainer>
           <LinkContainer to="/skapakonto">
               <NavItem>Skapa konto</NavItem>
             </LinkContainer>
-            <LinkContainer to="/skapakonto">
-              <NavItem>Skapa konto</NavItem>
+            <LinkContainer to="/minsida">
+              <NavItem>Min sida</NavItem>
             </LinkContainer>
             </Nav>
             <Nav pullRight>
