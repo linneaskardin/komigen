@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
-//import "./Login.css";
+import "./LoggaIn.css";
 
 export default class LoggaIn extends Component {
   constructor(props) {
@@ -56,6 +56,7 @@ export default class LoggaIn extends Component {
             Login
           </Button>
         </form>
+        <Button type="submit">Skapa Konto</Button>
       </div>
     );
   }
