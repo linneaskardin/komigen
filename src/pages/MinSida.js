@@ -1,14 +1,43 @@
-import React, { Component } from "react";
- 
-class MinSida extends Component {
+import React from 'react';
+import { Table } from 'reactstrap';
+
+export default class MinSida extends React.Component {
   render() {
     return (
-      <div>
-        <h2>Min sida</h2>
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
-      </div>
+      <Table striped>
+        <thead>
+          <tr>
+            <th>Fastighetsbeteckning</th>
+            <th>Ägare</th>
+            <th>Area</th>
+            <th>Taxeringsvärde</th>
+            <th>Köpeskilling</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </Table>
     );
   }
 }
- 
-export default MinSida;
