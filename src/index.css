@@ -4,17 +4,29 @@ input.form-control {
   font-size: 16px;
 }
 input[type=file] {
-  width: 50%;
+  width: 100%;
 }
 
 body {
-    background-color: lightgray;
-    padding: 20px;
+    padding: 20px; 
     margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
   }
-  h1, h2, p, ul, li {
+  
+  h1, h2, h3, h4, h5, h6, p, ul, li {
     font-family: sans-serif;
   }
+
+  .Main {
+    margin-top: 15px;
+  }
+  
+  .Main .navbar-brand {
+    font-weight: bold;
+  }
+/* 
   ul.header li {
     display: inline;
     list-style-type: none;
@@ -44,5 +56,5 @@ body {
   }
   .active {
     background-color: #0099FF;
-  }
+  } */
 

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
-import "./LoggaIn.css";
+import "./Login.css";
 
 export default class LoggaIn extends Component {
   constructor(props) {
@@ -53,10 +53,9 @@ export default class LoggaIn extends Component {
             disabled={!this.validateForm()}
             type="submit"
           >
-            Login
+            Logga In
           </Button>
         </form>
-        <Button type="submit">Skapa Konto</Button>
       </div>
     );
   }
